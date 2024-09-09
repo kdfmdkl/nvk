@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thế Giới Di Động Của Nguyễn Văn Khẩn </title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    padding: 10px 0;
+    list-style: none;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+nav ul li .dropdown li a {
+    padding: 10px 20px;
+}
+
+.banner {
+    text-align: center;
+    background: url('ipad-banner.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.banner p {
+    font-size: 1.5em;
+}
+
+.banner button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.products {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid aliceblue;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product .price {
+    color: #e60000;
+    font-size: 1.2em;
+}
+
+.product .original-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.product .discount {
+    color: #007bff;
+    font-size: 1em;
+}
+
+.products button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.main-content img {
+           background-image: url(/image/anh.jpg);
+           background-image: 100% 100%;
+           background-image: cover;
+}   
+.main-content {
+            text-align: center;
+            padding: 50px 20px;
+}
+footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            font-size: 14px;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 0 20px;
+        }
+
+        .footer-section {
+            flex: 1;
+            margin: 10px;
+            min-width: 200px;
+        }
+
+        .footer-section h3 {
+            margin-top: 0;
+            color: white;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-section ul li {
+            margin: 5px 0;
+        }
+
+        .footer-section ul li a {
+            color: silver;
+            text-decoration: none;
+        }
+
+        .footer-section ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .support h3, .support p {
+            margin: 5px 0;
+        }
+
+        .support{
+            background-color: white;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding: 10px 20px;
+            border-top: 1px solid #444;
+            font-size: 12px;
+        }
+
+        .footer-bottom p {
+            margin: 5px 0;
+        }
+
+        .footer-bottom a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .footer-bottom a:hover {
+            text-decoration: underline;
+        }
+        .top-bar img{
+            width: 220px;
+            height: auto;
+            overflow: hidden;
+        }
+       
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#Home"><img src="https://tse1.mm.bing.net/th?id=OIP.IbQC638n8SYRWsqtxZRXGwHaCG&pid=Api&P=0&h=180" alt=""
+                    width="110px"; height="auto"></a></li>
+                <li><a href="#">Iphone</a></li>
+                <li><a href="#">Ipad</a></li>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">Wacth</a></li>
+                <li><a href="#">Máy Cũ</a></li>
+                <li><a href="#">Phụ Kiên</a></li>
+                <li><a href="#">Dịch Vụ</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Trả góp</a></li>
+                        <li><a href="#">Yhu cũ đổi mới</a></li>
+                        <li><a href="#">Workshops</a></li>
+                        <li><a href="#">MBTI</a></li>
+                        <li><a href="#">Sim thẻ</a></li>
+                        <li><a href="#">Apple Care</a></li>
+                        <li><a href="#">Bán hàng doanh nghiệp</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Khuyến mại</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <h1>iPad Air</h1>
+        <img src="https://www.apple.com/v/ipad-air/w/images/overview/closer-look/all-colors/slide_1A__fg52jvpudo6e_large.jpg" alt="iPad Air">
+        <p>Giảm tới <strong>500K</strong> | Trả góp lãi suất <strong>0%</strong></p>
+        <button>Mua ngay</button>
+    </div>
+    <br>
+    <hr>
+
+    <section class="products">
+        <h2>iPhone</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-13_2_.png" alt="iPhone 13">
+                <h3>iPhone 13</h3>
+                <p class="price">13,280,000₫</p>
+                <p class="original-price">14,990,000₫</p>
+                <p class="discount">-46%</p>
+            </div>
+            <div class="product">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-plus_1_.png" alt="iPhone 15 128GB">
+                <h3>iPhone 15 128GB</h3>
+                <p class="price">18,990,000₫</p>
+                <p class="original-price">24,990,000₫</p>
+                <p class="discount">-21%</p>
+            </div>
+            <div class="product">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-plus_1_.png" alt="iPhone 15 512GB">
+                <h3>iPhone 15 512GB</h3>
+                <p class="price">21,990,000₫</p>
+                <p class="original-price">27,990,000₫</p>
+                <p class="discount">-32%</p>
+            </div>
+            <div class="product">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-pro-max_3.png" alt="iPhone 15 Pro Max 256GB">
+                <h3>iPhone 15 Pro Max 256GB</h3>
+                <p class="price">29,390,000₫</p>
+                <p class="original-price">37,990,000₫</p>
+                <p class="discount">-22%</p>
+            </div>
+        </div>
+        <button>Xem Tất Cả Iphone</button>
+    </section>
+    <section class="products">
+        <h2>Ipad</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/ipad-mini-6_2.png" alt="">
+                <h3>Ipad mini 6</h3>
+                <p class="price">13,280,000₫</p>
+                <p class="original-price">14,990,000₫</p>
+                <p class="discount">-46%</p>
+            </div>
+            <div class="product">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_255.jpg" alt="">
+                <h3>IPad Ari 4</h3>
+                <p class="price">18,990,000₫</p>
+                <p class="original-price">24,990,000₫</p>
+                <p class="discount">-21%</p>
+            </div>
+            <div class="product">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/ipad-10-2-inch-2021_1.png" alt="">
+                <h3>IPad Gen 9 10.2 inch Wifi 64GB</h3>
+                <p class="price">21,990,000₫</p>
+                <p class="original-price">27,990,000₫</p>
+                <p class="discount">-32%</p>
+            </div>
+            <div class="product">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/ipad-10-9-inch-2022.png" alt="">
+                <h3>Ipad Gen 10 th 10.9 inch Wifi</h3>
+                <p class="price">29,390,000₫</p>
+                <p class="original-price">37,990,000₫</p>
+                <p class="discount">-22%</p>
+            </div>
+        </div>
+        <button>Xem Tất Cả IPad</button>
+    </section>
+    <section class="products">
+        <h2>Tin Tức</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="https://bizweb.dktcdn.net/100/150/781/files/he-ruc-ro-sale-het-co-01.jpg?v=1625717154111" alt="">
+                <h3>Tổng hợp CTKM tháng 6 tại ShopDuck. Ưu đại lên đến 11 Triệu cho sản phẩm Apple chính hãng</h3>
+              
+                <p class="discount">01/06/2024</p>
+            </div>
+            <div class="product">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.oEicXYWtC7EY33knoUomXQHaE9&pid=Api&P=0&h=180" alt="">
+                <h3>HÈ RỰC RỠ.SALE HẾT CỠ | GIẢM ĐẾN 11 TRIỆU</h3>
+             
+                <p class="discount">01/06/2024</p>
+            </div>
+            <div class="product">
+                <img src="http://file.hstatic.net/200000067158/article/summer_sale-01_8e9437c4ca3b49a6ad5d91860ddc9297.jpg" alt="">
+                <h3>ShopDuck Ipic AWARD " KHU TÔI SỐNG "</h3>
+              
+                <p class="discount">25/04/2024</p>
+            </div>
+           
+        </div>
+        <button>Xem Tất Cả Tin Tức</button>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="top-bar"><img src="https://tse1.mm.bing.net/th?id=OIP.IbQC638n8SYRWsqtxZRXGwHaCG&pid=Api&P=0&h=180" alt="ShopDunk Logo"></div>
+                <p>Năm 2020, ShopDunk trở thành đại lý ủy quyền của Apple. Chúng tôi phát triển chuỗi cửa hàng tiêu chuẩn và Apple Mono Store nhằm mang đến trải nghiệm tốt nhất về sản phẩm và dịch vụ của Apple cho người dùng Việt Nam.</p>
+                <div class="support">
+                    <h3 style="color: black;">Tổng đài hỗ trợ :</h3>
+                    <p style="color: black;">Mua hàng: <a href="tel:19006626">1900.6626</a> (08:00 - 22:00)</p>
+                    <p style="color: black;">Bảo hành: <a href="tel:19008036">1900.8036</a> (08:00 - 22:00)</p>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Thông tin</h3>
+                <ul>
+                    <li><a href="#">Tin Tức</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Check IMEI</a></li>
+                    <li><a href="#">Phương thức thanh toán</a></li>
+                    <li><a href="#">Thuê điểm bán lẻ</a></li>
+                    <li><a href="#">Bảo hành và sửa chữa</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+                    <li><a href="#">Đánh giá chất lượng, khiếu nại</a></li>
+                    <li><a href="#">Tra cứu hoá đơn điện tử</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Chính sách</h3>
+                <ul>
+                    <li><a href="#">Thu cũ đổi mới</a></li>
+                    <li><a href="#">Giao hàng</a></li>
+                    <li><a href="#">Giao hàng (ZaloPay)</a></li>
+                    <li><a href="#">Hủy giao dịch</a></li>
+                    <li><a href="#">Đổi trả</a></li>
+                    <li><a href="#">Bảo hành</a></li>
+                    <li><a href="#">Dịch vụ</a></li>
+                    <li><a href="#">Giải quyết khiếu nại</a></li>
+                    <li><a href="#">Bảo mật thông tin</a></li>
+                    <li><a href="#">Hướng dẫn thanh toán qua VNPAY</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Địa chỉ & Liên hệ</h3>
+                <ul>
+                    <li><a href="#">Tài khoản của tôi</a></li>
+                    <li><a href="#">Đơn đặt hàng</a></li>
+                    <li><a href="#">Hệ thống cửa hàng</a></li>
+                    <li><a href="#">Tìm Store trên Google Map</a></li>
+                </ul>
+                <p>Mua hàng: <a href="tel:19006626">1900.6626</a></p>
+                <ul>
+                    <li>Nhánh 1: khu vực Hà Nội và các tỉnh phía bắc</li>
+                    <li>Nhánh 2: khu vực Hồ Chí Minh và các tỉnh phía nam</li>
+                    <li>Nhánh 3: Khiếu nại và góp ý</li>
+                </ul>
+                <p>Doanh nghiệp: <a href="tel:0822688668">0822.688.668</a></p>
+                <p>Bán hàng doanh nghiệp</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2016 Công ty Cổ Phần HESMAN Việt Nam GPKD: 0107465657 do Sở KH & ĐT TP. Hà Nội cấp ngày 08/06/2016.</p>
+            <p>Địa chỉ: Số 76 Thái Hà, phường Trung Liệt, quận Đống Đa, thành phố Hà Nội, Việt Nam</p>
+            <p>Đại diện pháp luật: PHẠM MẠNH HÒA | ĐT: 0247.305.9999 | Email: <a href="mailto:lienhe@shopdunk.com">lienhe@shopdunk.com</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
